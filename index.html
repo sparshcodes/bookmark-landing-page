@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon.png"
+    />
+
+    <title>@sparshcodes | Bookmark landing page</title>
+
+    <!-- Embedding google fonts from google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img
+          src="./images/bg-pattern.svg"
+          class="bg-pattern"
+          alt="background-pattern"
+        />
+        <nav class="navbar flex">
+          <div class="hamburger-container">
+            <img src="./images/icon-hamburger.svg" class="hamburger" />
+          </div>
+          <div class="logo-container">
+            <svg width="148" height="25" xmlns="http://www.w3.org/2000/svg">
+              <g fill="none" fill-rule="evenodd">
+                <path
+                  d="M37 6.299h5.227c.746 0 1.434.155 2.062.466.629.311 1.123.735 1.484 1.27s.542 1.12.542 1.754c0 .672-.165 1.254-.495 1.746-.33.491-.762.868-1.297 1.129v.15c.697.248 1.25.643 1.661 1.185.41.541.616 1.191.616 1.95 0 .735-.196 1.385-.588 1.951a3.817 3.817 0 0 1-1.587 1.307c-.665.305-1.403.457-2.212.457H37V6.299zm5.04 5.45c.548 0 .986-.152 1.316-.457.33-.305.495-.688.495-1.148 0-.448-.159-.824-.476-1.13-.318-.304-.738-.457-1.26-.457H39.52v3.192h2.52zm.28 5.619c.61 0 1.086-.159 1.428-.476.342-.317.513-.731.513-1.241 0-.51-.174-.927-.522-1.251-.349-.324-.847-.485-1.494-.485H39.52v3.453h2.8zm12.927 2.595c-1.307 0-2.492-.308-3.556-.924a6.711 6.711 0 0 1-2.511-2.53c-.61-1.07-.915-2.246-.915-3.528 0-1.281.305-2.457.915-3.528a6.711 6.711 0 0 1 2.51-2.529C52.756 6.308 53.94 6 55.248 6c1.306 0 2.492.308 3.556.924a6.711 6.711 0 0 1 2.51 2.53c.61 1.07.915 2.246.915 3.527 0 1.282-.305 2.458-.915 3.528a6.711 6.711 0 0 1-2.51 2.53c-1.064.616-2.25.924-3.556.924zm0-2.39a4.52 4.52 0 0 0 2.258-.578 4.177 4.177 0 0 0 1.615-1.624c.392-.697.588-1.494.588-2.39 0-.896-.196-1.692-.588-2.389a4.177 4.177 0 0 0-1.615-1.624 4.52 4.52 0 0 0-2.258-.579 4.47 4.47 0 0 0-2.25.579 4.195 4.195 0 0 0-1.605 1.624c-.392.697-.588 1.493-.588 2.39 0 .895.196 1.692.588 2.389a4.195 4.195 0 0 0 1.605 1.624 4.47 4.47 0 0 0 2.25.578zm15.353 2.39c-1.307 0-2.492-.308-3.556-.924a6.711 6.711 0 0 1-2.51-2.53c-.61-1.07-.915-2.246-.915-3.528 0-1.281.305-2.457.914-3.528a6.711 6.711 0 0 1 2.511-2.529C68.108 6.308 69.294 6 70.6 6c1.307 0 2.492.308 3.556.924a6.711 6.711 0 0 1 2.51 2.53c.61 1.07.915 2.246.915 3.527 0 1.282-.305 2.458-.914 3.528a6.711 6.711 0 0 1-2.511 2.53c-1.064.616-2.25.924-3.556.924zm0-2.39a4.52 4.52 0 0 0 2.259-.578 4.177 4.177 0 0 0 1.614-1.624c.392-.697.588-1.494.588-2.39 0-.896-.196-1.692-.588-2.389a4.177 4.177 0 0 0-1.614-1.624 4.52 4.52 0 0 0-2.259-.579 4.47 4.47 0 0 0-2.25.579 4.195 4.195 0 0 0-1.605 1.624c-.392.697-.588 1.493-.588 2.39 0 .895.196 1.692.588 2.389a4.195 4.195 0 0 0 1.606 1.624 4.47 4.47 0 0 0 2.249.578zM79.83 6.3h2.52v5.73h.15l4.89-5.73h3.043v.149L85.6 11.973l5.338 7.542v.149h-3.08l-3.994-5.693-1.512 1.773v3.92h-2.52V6.299zM93.779 6h3.248l3.546 9.39h.15L104.268 6h3.267v13.365h-2.501v-6.589l.15-2.221h-.15l-3.398 8.81h-1.96l-3.416-8.81h-.149l.15 2.221v6.59h-2.483V6zm20.8 0h2.894l5.021 13.365h-2.781l-1.12-3.192h-5.115l-1.12 3.192h-2.781L114.579 6zm3.193 7.859l-1.176-3.36-.486-1.606h-.149l-.485 1.606-1.195 3.36h3.49zM124.553 6h4.872c.871 0 1.646.18 2.324.541.678.361 1.204.862 1.577 1.503.374.64.56 1.366.56 2.175 0 .858-.27 1.62-.812 2.286a4.617 4.617 0 0 1-2.044 1.447l-.018.13 3.584 5.134v.15h-2.894l-3.453-5.022h-1.176v5.021h-2.52V6zm4.853 6.03c.573 0 1.04-.175 1.4-.523.361-.349.542-.79.542-1.326 0-.51-.172-.945-.514-1.306-.342-.361-.806-.542-1.39-.542h-2.371v3.696h2.333zm7.23-6.03h2.52v5.73h.15l4.89-5.73h3.043v.15l-4.835 5.525 5.34 7.541v.15h-3.08l-3.996-5.694-1.512 1.773v3.92h-2.52V6z"
+                  fill="#242A45"
+                  fill-rule="nonzero"
+                />
+                <g>
+                  <circle fill="#5267DF" cx="12.5" cy="12.5" r="12.5" />
+                  <path
+                    d="M9 9v10l3.54-3.44L16.078 19V9a2 2 0 0 0-2-2H11a2 2 0 0 0-2 2z"
+                    fill="#FFF"
+                  />
+                </g>
+              </g>
+            </svg>
+          </div>
+          <ul class="nav-list flex">
+            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link btn clr1">Login</a>
+            </li>
+            <ul class="social-media-list">
+              <li>
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                  >
+                    <path
+                      fill="#FFF"
+                      fill-rule="evenodd"
+                      d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"
+                    /></svg
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="20"
+                  >
+                    <path
+                      fill="#FFF"
+                      fill-rule="evenodd"
+                      d="M24 2.557a9.83 9.83 0 0 1-2.828.775A4.932 4.932 0 0 0 23.337.608a9.864 9.864 0 0 1-3.127 1.195A4.916 4.916 0 0 0 16.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 0 1 1.671 1.149a4.93 4.93 0 0 0 1.523 6.574 4.903 4.903 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.928 4.928 0 0 0 4.6 3.419A9.9 9.9 0 0 1 0 17.54a13.94 13.94 0 0 0 7.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0 0 24 2.557z"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </ul>
+        </nav>
+
+        <div class="intro flex">
+          <div class="intro-col-left">
+            <h1>
+              A Simple Bookmark <br />
+              Manager
+            </h1>
+            <p>
+              A clean and simple interface to organize your favourite websites.
+              Open a new browser tab and see your sites load instantly. Try it
+              for free.
+            </p>
+            <div class="btn-group">
+              <a href="#" class="btn clr2">Get it on chrome</a>
+              <a href="#" class="btn clr3">Get it on firefox</a>
+            </div>
+          </div>
+          <div class="intro-col-right">
+            <img src="./images/illustration-hero.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- features section start -->
+
+    <section class="feature">
+      <div class="container">
+        <img
+          src="./images/bg-pattern.svg"
+          class="bg-pattern"
+          alt="background-pattern"
+        />
+        <h2 class="section-heading text-center">Features</h2>
+        <p class="section-description text-center">
+          Our aim is to make it quick and easy for you to access your favourite
+          websites. Your bookmarks sync between your devices so you can access
+          them on the go.
+        </p>
+        <div class="tab-container">
+          <ul class="tab-nav flex">
+            <li class="active one">Simple Bookmarking</li>
+            <li class="two">Speedy Searching</li>
+            <li class="three">Easy Sharing</li>
+          </ul>
+          <div class="tab-body tab-one flex active">
+            <div class="tab-col-left">
+              <img
+                src="./images/illustration-features-tab-1.svg"
+                alt="illustration"
+              />
+            </div>
+            <div class="tab-col-right">
+              <div class="content">
+                <h2>Bookmark in one click</h2>
+                <p>
+                  Organize your bookmarks however you like. Our simple
+                  drag-and-drop interface gives you complete control over how
+                  you manage your favourite sites.
+                </p>
+                <a href="#" class="btn clr2">More Info</a>
+              </div>
+            </div>
+          </div>
+          <div class="tab-body tab-two flex">
+            <div class="tab-col-left">
+              <img
+                src="./images/illustration-features-tab-2.svg"
+                alt="illustration"
+              />
+            </div>
+            <div class="tab-col-right">
+              <div class="content">
+                <h2>Intelligent search</h2>
+                <p>
+                  Our powerful search feature will help you find saved sites in
+                  no time at all. No need to trawl through all of your
+                  bookmarks.
+                </p>
+                <a href="#" class="btn clr2">More Info</a>
+              </div>
+            </div>
+          </div>
+          <div class="tab-body tab-three flex">
+            <div class="tab-col-left">
+              <img
+                src="./images/illustration-features-tab-3.svg"
+                alt="illustration"
+              />
+            </div>
+            <div class="tab-col-right">
+              <div class="content">
+                <h2>Share your bookmarks</h2>
+                <p>
+                  Easily share your bookmarks and collections with others.
+                  Create a shareable link that you can send at the click of a
+                  button.
+                </p>
+                <a href="#" class="btn clr2">More Info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- download section starts -->
+
+    <section class="download">
+      <div class="container">
+        <h2 class="section-heading text-center">Download the extension</h2>
+        <p class="section-description text-center">
+          We've got more browsers in the pipeline. Please do let us know if
+          you've got a favourite you'd like us to prioritize.
+        </p>
+        <div class="browser-cards">
+          <div class="card">
+            <img src="./images/logo-chrome.svg" alt="chrome logo" />
+            <h4>Add to Chrome</h4>
+            <p>Minimum version 62</p>
+            <a href="#" class="btn clr2">Add & Install Extension</a>
+          </div>
+          <div class="card">
+            <img src="./images/logo-firefox.svg" alt="chrome logo" />
+            <h4>Add to Firefox</h4>
+            <p>Minimum version 55</p>
+            <a href="#" class="btn clr2">Add & Install Extension</a>
+          </div>
+          <div class="card">
+            <img src="./images/logo-opera.svg" alt="chrome logo" />
+            <h4>Add to Opera</h4>
+            <p>Minimum version 46</p>
+            <a href="#" class="btn clr2">Add & Install Extension</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION STARTS -->
+
+    <section class="faq">
+      <div class="container">
+        <h2 class="section-heading">Frequently Asked Questions</h2>
+        <p class="section-description text-center">
+          Here are some of our FAQs. If you have any other questions you’d like
+          answered please feel free to email us.
+        </p>
+        <div class="faq-container">
+          <div class="question">
+            <button>
+              <span>What is Bookmark?</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                <path
+                  fill="none"
+                  stroke="#5267DF"
+                  stroke-width="3"
+                  d="M1 1l8 8 8-8"
+                />
+              </svg>
+            </button>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+              tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum
+              quis quam ornare mattis.
+            </p>
+          </div>
+          <div class="question">
+            <button>
+              <span>How can I request a new browser?</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                <path
+                  fill="none"
+                  stroke="#5267DF"
+                  stroke-width="3"
+                  d="M1 1l8 8 8-8"
+                />
+              </svg>
+            </button>
+            <p>
+              Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+              massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus
+              eros aliquet convallis ultricies. Mauris augue massa, ultricies
+              non ligula. Suspendisse imperdie tVivamus luctus eros aliquet
+              convallis ultricies. Mauris augue massa, ultricies non ligula.
+              Suspendisse imperdiet.
+            </p>
+          </div>
+          <div class="question">
+            <button>
+              <span>Is there a mobile app?</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                <path
+                  fill="none"
+                  stroke="#5267DF"
+                  stroke-width="3"
+                  d="M1 1l8 8 8-8"
+                />
+              </svg>
+            </button>
+            <p>
+              Sed consectetur quam id neque fermentum accumsan. Praesent luctus
+              vestibulum dolor, ut condimentum urna vulputate eget. Cras in
+              ligula quis est pharetra mattis sit amet pharetra purus. Sed
+              sollicitudin ex et ultricies bibendum.
+            </p>
+          </div>
+          <div class="question">
+            <button>
+              <span>What about other Chromium browsers?</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                <path
+                  fill="none"
+                  stroke="#5267DF"
+                  stroke-width="3"
+                  d="M1 1l8 8 8-8"
+                />
+              </svg>
+            </button>
+            <p>
+              Integer condimentum ipsum id imperdiet finibus. Vivamus in
+              placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida
+              pellentesque non ut velit.
+            </p>
+          </div>
+        </div>
+        <div class="center">
+          <a href="#" class="btn clr2">More Info</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="container">
+        <span class="heading-sm">35,000+ already joined</span>
+        <h2>
+          Stay up-to-date with what <br />
+          we’re doing
+        </h2>
+
+        <form class="subscribe-form flex">
+          <input
+            type="email"
+            data-error="Whoops, make sure it's an email"
+            placeholder="Enter your email address"
+          />
+          <button class="submit clr1 btn">Contact us</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container flex">
+        <ul class="footer-nav flex">
+          <div class="logo">
+            <svg width="148" height="25" xmlns="http://www.w3.org/2000/svg">
+              <g fill="none" fill-rule="evenodd">
+                <path
+                  d="M37 6.299h5.227c.746 0 1.434.155 2.062.466.629.311 1.123.735 1.484 1.27s.542 1.12.542 1.754c0 .672-.165 1.254-.495 1.746-.33.491-.762.868-1.297 1.129v.15c.697.248 1.25.643 1.661 1.185.41.541.616 1.191.616 1.95 0 .735-.196 1.385-.588 1.951a3.817 3.817 0 0 1-1.587 1.307c-.665.305-1.403.457-2.212.457H37V6.299zm5.04 5.45c.548 0 .986-.152 1.316-.457.33-.305.495-.688.495-1.148 0-.448-.159-.824-.476-1.13-.318-.304-.738-.457-1.26-.457H39.52v3.192h2.52zm.28 5.619c.61 0 1.086-.159 1.428-.476.342-.317.513-.731.513-1.241 0-.51-.174-.927-.522-1.251-.349-.324-.847-.485-1.494-.485H39.52v3.453h2.8zm12.927 2.595c-1.307 0-2.492-.308-3.556-.924a6.711 6.711 0 0 1-2.511-2.53c-.61-1.07-.915-2.246-.915-3.528 0-1.281.305-2.457.915-3.528a6.711 6.711 0 0 1 2.51-2.529C52.756 6.308 53.94 6 55.248 6c1.306 0 2.492.308 3.556.924a6.711 6.711 0 0 1 2.51 2.53c.61 1.07.915 2.246.915 3.527 0 1.282-.305 2.458-.915 3.528a6.711 6.711 0 0 1-2.51 2.53c-1.064.616-2.25.924-3.556.924zm0-2.39a4.52 4.52 0 0 0 2.258-.578 4.177 4.177 0 0 0 1.615-1.624c.392-.697.588-1.494.588-2.39 0-.896-.196-1.692-.588-2.389a4.177 4.177 0 0 0-1.615-1.624 4.52 4.52 0 0 0-2.258-.579 4.47 4.47 0 0 0-2.25.579 4.195 4.195 0 0 0-1.605 1.624c-.392.697-.588 1.493-.588 2.39 0 .895.196 1.692.588 2.389a4.195 4.195 0 0 0 1.605 1.624 4.47 4.47 0 0 0 2.25.578zm15.353 2.39c-1.307 0-2.492-.308-3.556-.924a6.711 6.711 0 0 1-2.51-2.53c-.61-1.07-.915-2.246-.915-3.528 0-1.281.305-2.457.914-3.528a6.711 6.711 0 0 1 2.511-2.529C68.108 6.308 69.294 6 70.6 6c1.307 0 2.492.308 3.556.924a6.711 6.711 0 0 1 2.51 2.53c.61 1.07.915 2.246.915 3.527 0 1.282-.305 2.458-.914 3.528a6.711 6.711 0 0 1-2.511 2.53c-1.064.616-2.25.924-3.556.924zm0-2.39a4.52 4.52 0 0 0 2.259-.578 4.177 4.177 0 0 0 1.614-1.624c.392-.697.588-1.494.588-2.39 0-.896-.196-1.692-.588-2.389a4.177 4.177 0 0 0-1.614-1.624 4.52 4.52 0 0 0-2.259-.579 4.47 4.47 0 0 0-2.25.579 4.195 4.195 0 0 0-1.605 1.624c-.392.697-.588 1.493-.588 2.39 0 .895.196 1.692.588 2.389a4.195 4.195 0 0 0 1.606 1.624 4.47 4.47 0 0 0 2.249.578zM79.83 6.3h2.52v5.73h.15l4.89-5.73h3.043v.149L85.6 11.973l5.338 7.542v.149h-3.08l-3.994-5.693-1.512 1.773v3.92h-2.52V6.299zM93.779 6h3.248l3.546 9.39h.15L104.268 6h3.267v13.365h-2.501v-6.589l.15-2.221h-.15l-3.398 8.81h-1.96l-3.416-8.81h-.149l.15 2.221v6.59h-2.483V6zm20.8 0h2.894l5.021 13.365h-2.781l-1.12-3.192h-5.115l-1.12 3.192h-2.781L114.579 6zm3.193 7.859l-1.176-3.36-.486-1.606h-.149l-.485 1.606-1.195 3.36h3.49zM124.553 6h4.872c.871 0 1.646.18 2.324.541.678.361 1.204.862 1.577 1.503.374.64.56 1.366.56 2.175 0 .858-.27 1.62-.812 2.286a4.617 4.617 0 0 1-2.044 1.447l-.018.13 3.584 5.134v.15h-2.894l-3.453-5.022h-1.176v5.021h-2.52V6zm4.853 6.03c.573 0 1.04-.175 1.4-.523.361-.349.542-.79.542-1.326 0-.51-.172-.945-.514-1.306-.342-.361-.806-.542-1.39-.542h-2.371v3.696h2.333zm7.23-6.03h2.52v5.73h.15l4.89-5.73h3.043v.15l-4.835 5.525 5.34 7.541v.15h-3.08l-3.996-5.694-1.512 1.773v3.92h-2.52V6z"
+                  fill="#242A45"
+                  fill-rule="nonzero"
+                />
+                <g>
+                  <circle fill="#5267DF" cx="12.5" cy="12.5" r="12.5" />
+                  <path
+                    d="M9 9v10l3.54-3.44L16.078 19V9a2 2 0 0 0-2-2H11a2 2 0 0 0-2 2z"
+                    fill="#FFF"
+                  />
+                </g>
+              </g>
+            </svg>
+          </div>
+          <li class="nav-item"><a href="#" class="nav-link">features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+        </ul>
+        <ul class="social-media-list flex">
+          <li>
+            <a href="#"
+              ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                <path
+                  fill="#FFF"
+                  fill-rule="evenodd"
+                  d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"
+                /></svg
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="20">
+                <path
+                  fill="#FFF"
+                  fill-rule="evenodd"
+                  d="M24 2.557a9.83 9.83 0 0 1-2.828.775A4.932 4.932 0 0 0 23.337.608a9.864 9.864 0 0 1-3.127 1.195A4.916 4.916 0 0 0 16.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 0 1 1.671 1.149a4.93 4.93 0 0 0 1.523 6.574 4.903 4.903 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.928 4.928 0 0 0 4.6 3.419A9.9 9.9 0 0 1 0 17.54a13.94 13.94 0 0 0 7.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0 0 24 2.557z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- ATTRIBUTION -->
+    <div class="attribution">
+      <p>
+        Created By
+        <a href="http://instagram.com/sparshcodes" target="_blank"
+          >@sparshcodes</a
+        >
+      </p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
